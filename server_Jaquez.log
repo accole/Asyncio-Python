@@ -1,0 +1,155 @@
+INFO:root:Serving on ('127.0.0.1', 12096)
+
+INFO:root:COMMAND RECEIVED: IAMAT kiwi.cs.ucla.edu +34.06893-118.445127 1520023934.918963997
+INFO:root:IAMAT RESPONSE: AT Jaquez 63785583.26568961 kiwi.cs.ucla.edu +34.06893-118.445127 1520023934.918964
+INFO:root:FLOODING INFO FOR CLIENT kiwi.cs.ucla.edu
+
+INFO:root:CONNECTED TO Hill
+INFO:root:FLOODING kiwi.cs.ucla.edu TO Hill
+INFO:root:AT MESSAGE SENT: AT Jaquez 63785583.26568961 kiwi.cs.ucla.edu +34.06893-118.445127 1520023934.918964
+INFO:root:CLOSED CONNECTION TO Hill
+
+INFO:root:CONNECTED TO Singleton
+INFO:root:FLOODING kiwi.cs.ucla.edu TO Singleton
+INFO:root:AT MESSAGE SENT: AT Jaquez 63785583.26568961 kiwi.cs.ucla.edu +34.06893-118.445127 1520023934.918964
+INFO:root:CLOSED CONNECTION TO Singleton
+
+INFO:root:CLOSING CONNECTION ...
+
+
+INFO:root:RECEIVED FROM SERVER: AT Jaquez 63785583.26568961 kiwi.cs.ucla.edu +34.06893-118.445127 1520023934.918964
+INFO:root:DUPLICATE FOR kiwi.cs.ucla.edu
+INFO:root:CLOSING CONNECTION ...
+
+
+INFO:root:RECEIVED FROM SERVER: AT Jaquez 63785583.26568961 kiwi.cs.ucla.edu +34.06893-118.445127 1520023934.918964
+INFO:root:DUPLICATE FOR kiwi.cs.ucla.edu
+INFO:root:CLOSING CONNECTION ...
+
+
+INFO:root:COMMAND RECEIVED: WHATSAT kiwi.cs.ucla.edu 10 5
+INFO:root:QUERYING GOOGLE MAPS API FOR LOCATION (+34.0689, -118.445127) WITH RADIUS 10.0
+INFO:root:WHATSAT RESPONSE: AT Jaquez 63785583.26568961 kiwi.cs.ucla.edu +34.0689-118.445127 1520023934.918964
+{
+   "html_attributions": [],
+   "results": [
+      {
+         "geometry": {
+            "location": {
+               "lat": 34.0688873,
+               "lng": -118.4450169
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.0702312302915,
+                  "lng": -118.4436835197085
+               },
+               "southwest": {
+                  "lat": 34.0675332697085,
+                  "lng": -118.4463814802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "ef162ea4f60a0b3933fae75544dba377b996befa",
+         "name": "Westwood Plaza",
+         "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+         "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+         "scope": "GOOGLE",
+         "types": [
+            "route"
+         ],
+         "vicinity": "Los Angeles"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": 34.068921,
+               "lng": -118.4451811
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.0828575,
+                  "lng": -118.42990995
+               },
+               "southwest": {
+                  "lat": 34.0575047,
+                  "lng": -118.46313815
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id": "4d56f16ad3d8976d49143fa4fdfffbc0a7ce8e39",
+         "name": "University of California, Los Angeles",
+         "photos": [
+            {
+               "height": 3024,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/102441856898186297335\">G L</a>"
+               ],
+               "photo_reference": "CmRaAAAAnRJ8a4Zt0ddQGFcDDn78AIEbYldkV_2WHzlSIq9cyU1y-Vc2Tw09c4UJh3qDxKWkFaa0f7WGSXnXYfqGhw6WCY81Mq-9EUAG9MgT4jQzmD7HtjXsLF_JP0SYB6izG8ucEhBqiz1GPoZafeAoyuBmY2trGhQK3Vke_eQvqbuKdw7SD_F8wOdC3w",
+               "width": 4032
+            }
+         ],
+         "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+         "plus_code": {
+            "compound_code": "3H93+HW Los Angeles, California, United States",
+            "global_code": "85633H93+HW"
+         },
+         "rating": 4.5,
+         "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+         "scope": "GOOGLE",
+         "types": [
+            "university",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 1664,
+         "vicinity": "Los Angeles"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": 34.0522342,
+               "lng": -118.2436849
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.3373061,
+                  "lng": -118.1552891
+               },
+               "southwest": {
+                  "lat": 33.7036519,
+                  "lng": -118.6681759
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "7f7b7d8118ae8db8ed3f541159ac928c484d12ad",
+         "name": "Los Angeles",
+         "photos": [
+            {
+               "height": 810,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/113136555241333752110\">Kwangsub shin</a>"
+               ],
+               "photo_reference": "CmRaAAAA_Jewmb5d-1cpdKUvz13j0divg7km1C9mVZxVsCHSJUajuLRUvUM1eODjArMZjpzGDFAVD5BD9SGzAMIYT_qAIC_XNpIK2oHJkSO_mrMkwb5cmjPkYDHH0-9KvcTjghYNEhDDuNfEEtE5APi4Ute_jOtSGhSWOZfwxtZGFvnpWyrvlQ9h5ijrHQ",
+               "width": 1440
+            }
+         ],
+         "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+         "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+         "scope": "GOOGLE",
+         "types": [
+            "locality",
+            "political"
+         ],
+         "vicinity": "Los Angeles"
+      }
+   ],
+   "status": "OK"
+}
+
+INFO:root:CLOSING CONNECTION ...
+
+
