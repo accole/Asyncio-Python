@@ -9,7 +9,7 @@ import socket
 
 
 #Google API Key
-#API_KEY = your api key
+API_KEY = #your api key
 
 #server names with assigned ports
 servers = ["Hill", "Jaquez", "Smith", "Campbell", "Singleton"]
