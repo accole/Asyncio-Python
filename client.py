@@ -3,8 +3,8 @@ import asyncio
 #CURR_PORT = 12099 #Singleton
 #CURR_PORT = 12098 #Campbell
 #CURR_PORT = 12097 #Smith
-#CURR_PORT = 12096 #Jaquez
-CURR_PORT = 12095 #Hill
+CURR_PORT = 12096 #Jaquez
+#CURR_PORT = 12095 #Hill
 
 class Client:
     def __init__(self, ip='127.0.0.1', port=CURR_PORT, name='client', message_max_length=1e6):
